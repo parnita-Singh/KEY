@@ -17,6 +17,9 @@ A webcam feed shows an on-screen QWERTY keyboard overlay. Hover your index finge
 - **pynput** — sends real keystrokes to the OS (optional)
 - **NumPy**
 
+## Demo Video 
+https://drive.google.com/drive/shared-with-me
+
 ## How It Works
 
 1. `cvzone.HandTrackingModule` detects your hand and returns 21 landmark points per frame.
