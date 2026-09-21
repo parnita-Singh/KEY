@@ -1,6 +1,6 @@
-# KEY 🎹✋
+# KEY
 
-**KEY** is an AI-powered virtual keyboard that lets you type by hovering and pinching your fingers in the air — no physical keyboard required. It uses real-time hand tracking through your webcam to detect finger positions and register keystrokes.
+**KEY** is an AI-powered virtual keyboard that lets you type by hovering and pinching your fingers in the air - no physical keyboard required. It uses real-time hand tracking through your webcam to detect finger positions and register keystrokes.
 
 Originally built in 9th grade, rebuilt here from scratch.
 
@@ -11,7 +11,7 @@ A webcam feed shows an on-screen QWERTY keyboard overlay. Hover your index finge
 ## Tech Stack
 
 - **Python 3.9–3.11**
-- **OpenCV** (`opencv-python`) — webcam capture and rendering
+- **OpenCV** (`opencv-python`) - webcam capture and rendering
 - **cvzone** — hand tracking wrapper
 - **MediaPipe** — underlying hand landmark detection
 - **pynput** — sends real keystrokes to the OS (optional)
@@ -28,7 +28,7 @@ A webcam feed shows an on-screen QWERTY keyboard overlay. Hover your index finge
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/KEY.git
+git clone https://github.com/parnita-Singh/KEY.git
 cd KEY
 pip install -r requirements.txt
 ```
@@ -64,5 +64,4 @@ KEY/
 - [ ] Save typed text to a file
 
 ## License
-
 MIT
